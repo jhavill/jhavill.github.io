@@ -1,84 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<!-- Side navigation -->
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joshua Havill</title>
 
-.sidenav {
-  height: 100%;
-  width: 240px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+      margin: 0;
+    }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
+    .sidenav {
+      height: 100%;
+      width: 240px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+    }
 
-.main {
-  margin-left: 240px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
+    .main {
+      margin-left: 240px;
+      font-size: 22px;
+      padding: 20px;
+    }
+
+    .intro-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    .intro-text {
+      flex: 1;
+    }
+
+    .profile-image {
+      width: 600px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      margin-top: 30px;
+    }
+
+    footer a {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    @media screen and (max-width: 900px) {
+      .intro-section {
+        flex-direction: column;
+      }
+
+      .profile-image {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="sidenav">
-  <a href="/index">Home</a>
-  <a href="/about">About</a>
-  <a href="/contact">Contact</a>
-  <a href="/extension_outreach">Extension and Outreach</a>
-  <a href="/mhga_resources">MHGA Resources</a>
-  <a href="/publications">Publications</a>
-  <a href="/research">Research</a>
-  <a href="/resources">Resources</a>
-  <a href="/usda_nifa_fellowship">USDA-NIFA Fellowship</a>
-</div>
+  <div class="sidenav">
+    <a href="/index">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/extension_outreach">Extension and Outreach</a>
+    <a href="/mhga_resources">MHGA Resources</a>
+    <a href="/publications">Publications</a>
+    <a href="/research">Research</a>
+    <a href="/resources">Resources</a>
+    <a href="/usda_nifa_fellowship">USDA-NIFA Fellowship</a>
+  </div>
 
+  <div class="main">
+    <h1>Joshua Havill, Ph. D.</h1>
 
-<!-- Page content -->
-<div class="main">
-  <head>
-     <h1>Joshua Havill, Ph. D.</h1>
-       <img src="images/IMG_1738.JPG" width="600" alt="Josh Havill" class="image" align="left">
-         <p>I am a postdoc, and a member of the <a href = "https://muehlbauerlab.cfans.umn.edu/" target="_blank"> Muehlbauer lab</a> group, at the University of Minnesota in the Department of Agronomy and Plant Genetics. I received my Ph. D. in Plant and Microbial Biology at University of Minnesota in March 2023. Prior to that, I completed my M. Sc. in Plant Pathology (2017) at the University of Minnesota, as well as my B. Sc. in Horticultural Science (2014) at the University of Minnesota.</p>
-  </head>
-  
-  <body>
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=tt&d=3jYaxbPls1XcpqasbCG32tUZkifvpSXfiPL3CayBBaU'></script>
-  </body>
-  
-  <foot>
-    <a href = "https://scholar.google.com/citations?user=Z5vaLc4AAAAJ&hl=en" target="_blank"> Google Scholar </a> </br>
-    <a href = "https://orcid.org/0000-0002-7939-9047" target="_blank"> ORCiD </a> </br>
-    <a href = "https://www.linkedin.com/in/joshuahavill" target="_blank"> LinkedIn </a> </br>
-    <a href = "https://www.researchgate.net/profile/Joshua-Havill-2" target="_blank"> ResearchGate </a> </br>
-<br> 
-  </foot>
-  
-</div>
+    <div class="intro-section">
+      <div class="intro-text">
+        <p>
+          I am a postdoc, and a member of the
+          <a href="https://muehlbauerlab.cfans.umn.edu/" target="_blank">
+            Muehlbauer lab
+          </a>
+          group, at the University of Minnesota in the Department of Agronomy and Plant Genetics.
+          I received my Ph. D. in Plant and Microbial Biology at University of Minnesota in March 2023.
+          Prior to that, I completed my M. Sc. in Plant Pathology (2017) at the University of Minnesota,
+          as well as my B. Sc. in Horticultural Science (2014) at the University of Minnesota.
+        </p>
+      </div>
+
+      <img src="images/IMG_1738.JPG" alt="Josh Havill" class="profile-image">
+    </div>
+
+    <script 
+      type="text/javascript" 
+      id="clustrmaps" 
+      src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=tt&d=3jYaxbPls1XcpqasbCG32tUZkifvpSXfiPL3CayBBaU">
+    </script>
+
+    <footer>
+      <a href="https://scholar.google.com/citations?user=Z5vaLc4AAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-7939-9047" target="_blank">ORCiD</a>
+      <a href="https://www.linkedin.com/in/joshuahavill" target="_blank">LinkedIn</a>
+      <a href="https://www.researchgate.net/profile/Joshua-Havill-2" target="_blank">ResearchGate</a>
+    </footer>
+  </div>
+
+</body>
 </html>

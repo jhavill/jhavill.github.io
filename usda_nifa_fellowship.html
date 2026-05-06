@@ -1,83 +1,193 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<!-- Side navigation -->
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: "Lato", sans-serif;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joshua Havill, Ph. D.</title>
 
-.sidenav {
-  height: 100%;
-  width: 240px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+      margin: 0;
+    }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
+    .sidenav {
+      height: 100%;
+      width: 240px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
 
-.sidenav a:hover {
-  color: #f1f1f1;
-}
+    .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+    }
 
-.main {
-  margin-left: 240px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
+    .main {
+      margin-left: 240px;
+      font-size: 28px;
+      padding: 20px 30px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 46px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.45;
+      max-width: 1100px;
+    }
+
+    .image-container {
+      margin-top: 25px;
+    }
+
+    .profile-image {
+      display: block;
+      max-width: 100%;
+      max-height: 75vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      margin-bottom: 30px;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 24px;
+    }
+
+    footer a {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    @media screen and (max-width: 900px) {
+      .sidenav {
+        width: 200px;
+      }
+
+      .sidenav a {
+        font-size: 20px;
+      }
+
+      .main {
+        margin-left: 200px;
+        font-size: 22px;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .profile-image {
+        max-height: 65vh;
+      }
+    }
+
+    @media screen and (max-width: 650px) {
+      .sidenav {
+        position: relative;
+        width: 100%;
+        height: auto;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+
+      .profile-image {
+        max-width: 100%;
+        max-height: 60vh;
+      }
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+
+      .profile-image {
+        max-height: 55vh;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="sidenav">
-  <a href="/index">Home</a>
-  <a href="/about">About</a>
-  <a href="/contact">Contact</a>
-  <a href="/extension_outreach">Extension and Outreach</a>
-  <a href="/mhga_resources">MHGA Resources</a>
-  <a href="/publications">Publications</a>
-  <a href="/research">Research</a>
-  <a href="/resources">Resources</a>
-  <a href="/usda_nifa_fellowship">USDA-NIFA Fellowship</a>
-</div>
+  <div class="sidenav">
+    <a href="/index">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/extension_outreach">Extension and Outreach</a>
+    <a href="/mhga_resources">MHGA Resources</a>
+    <a href="/publications">Publications</a>
+    <a href="/research">Research</a>
+    <a href="/resources">Resources</a>
+    <a href="/usda_nifa_fellowship">USDA-NIFA Fellowship</a>
+  </div>
 
+  <div class="main">
+    <h1>Joshua Havill, Ph. D.</h1>
 
-<!-- Page content -->
-<div class="main">
-  <head>
-     <h1>Joshua Havill, Ph. D.</h1>
- </head>
-  
-  <body> 
-    <p>Hop (<I>Humulus lupulus</I> L.) is a dioecious, perennial plant and the primary bittering and flavoring agent in beer. Hop breeding has long focused on developing varieties that contain favorable agronomic characteristics and unique flavors and aromas. While only female plants are cultivated commercially for their inflorescence or "cones", breeding and germplasm collections contain male and female plants which are used as breeding parents to develop novel variation including for disease resistance. However, we still lack a complete understanding of the genome organization and structure within <I>Humulus</I> germplasm resources. Multiple lines of evidence indicate the presence of significant structural variation within and between individuals, and especially between previously described subpopulations. By developing a better understanding of hop genome organization, we can develop tools to more efficiently introgress novel alleles from diverse germplasm. As a part of my USDA-NIFA Postdoctoral Fellowship, I will develop <I>Humulus</I> pangemoic resources to enable development of genomics-assisted breeding tools to aid in modernizing hop breeding programs. My objectives include 1) Develop a hop pangenome and examine comparative genomics and diversity within the <I>Humulus</I> species;  2) Assess the utility of the hop pangenome graph via a pangenome-wide association study (panGWAS). </p> </br>
-    <br><img src="images/Josh_MN_StateFair_2025.jpg" alt="Minnesota Craft Brewers Guild - MN State Fair 2026" class="profile-image"></br>
-    <br><img src="images/StCroixValleyHops_Harvester.jpg" alt="Wolf 170 Hop Harvester" class="profile-image"></br>
-  </body>
-  
-  <foot>
-    <a href = "https://scholar.google.com/citations?user=Z5vaLc4AAAAJ&hl=en" target="_blank"> Google Scholar </a> </br>
-    <a href = "https://orcid.org/0000-0002-7939-9047" target="_blank"> ORCiD </a> </br>
-    <a href = "https://www.linkedin.com/in/joshuahavill" target="_blank"> LinkedIn </a> </br>
-    <a href = "https://www.researchgate.net/profile/Joshua-Havill-2" target="_blank"> ResearchGate </a> </br>
-  </foot>
-  
-</div>
+    <p>
+      Hop (<i>Humulus lupulus</i> L.) is a dioecious, perennial plant and the primary bittering and flavoring agent in beer.
+      Hop breeding has long focused on developing varieties that contain favorable agronomic characteristics and unique
+      flavors and aromas. While only female plants are cultivated commercially for their inflorescence or "cones", breeding
+      and germplasm collections contain male and female plants which are used as breeding parents to develop novel variation
+      including for disease resistance. However, we still lack a complete understanding of the genome organization and
+      structure within <i>Humulus</i> germplasm resources. Multiple lines of evidence indicate the presence of significant
+      structural variation within and between individuals, and especially between previously described subpopulations.
+      By developing a better understanding of hop genome organization, we can develop tools to more efficiently introgress
+      novel alleles from diverse germplasm. As a part of my USDA-NIFA Postdoctoral Fellowship, I will develop
+      <i>Humulus</i> pangenomic resources to enable development of genomics-assisted breeding tools to aid in modernizing
+      hop breeding programs. My objectives include 1) Develop a hop pangenome and examine comparative genomics and diversity
+      within the <i>Humulus</i> species; 2) Assess the utility of the hop pangenome graph via a pangenome-wide association
+      study, or panGWAS.
+    </p>
+
+    <div class="image-container">
+      <img 
+        src="images/Josh_MN_StateFair_2025.jpg" 
+        alt="Minnesota Craft Brewers Guild - MN State Fair 2026" 
+        class="profile-image"
+      >
+
+      <img 
+        src="images/StCroixValleyHops_Harvester.jpg" 
+        alt="Wolf 170 Hop Harvester" 
+        class="profile-image"
+      >
+    </div>
+
+    <footer>
+      <a href="https://scholar.google.com/citations?user=Z5vaLc4AAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-7939-9047" target="_blank">ORCiD</a>
+      <a href="https://www.linkedin.com/in/joshuahavill" target="_blank">LinkedIn</a>
+      <a href="https://www.researchgate.net/profile/Joshua-Havill-2" target="_blank">ResearchGate</a>
+    </footer>
+  </div>
+
+</body>
 </html>

@@ -37,42 +37,63 @@
 
     .main {
       margin-left: 240px;
-      font-size: 22px;
-      padding: 20px;
+      padding: 30px;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-top: 0;
+      margin-bottom: 30px;
     }
 
     .intro-section {
       display: flex;
       align-items: flex-start;
-      gap: 30px;
+      gap: 40px;
+      width: 100%;
+    }
+
+    .profile-image {
+      width: 40%;
+      max-width: 600px;
+      min-width: 300px;
+      height: auto;
     }
 
     .intro-text {
       flex: 1;
-    }
-
-    .profile-image {
-      width: 600px;
-      max-width: 100%;
-      height: auto;
+      font-size: 30px;
+      line-height: 1.45;
     }
 
     footer {
-      margin-top: 30px;
+      margin-top: 40px;
+      font-size: 24px;
     }
 
     footer a {
       display: block;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
     }
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1000px) {
       .intro-section {
         flex-direction: column;
       }
 
       .profile-image {
         width: 100%;
+        max-width: 100%;
+      }
+
+      .intro-text {
+        font-size: 24px;
+      }
+
+      h1 {
+        font-size: 38px;
       }
     }
 
@@ -106,6 +127,8 @@
     <h1>Joshua Havill, Ph. D.</h1>
 
     <div class="intro-section">
+      <img src="images/IMG_1738.JPG" alt="Josh Havill" class="profile-image">
+
       <div class="intro-text">
         <p>
           I am a postdoc, and a member of the
@@ -118,8 +141,6 @@
           as well as my B. Sc. in Horticultural Science (2014) at the University of Minnesota.
         </p>
       </div>
-
-      <img src="images/IMG_1738.JPG" alt="Josh Havill" class="profile-image">
     </div>
 
     <script 
